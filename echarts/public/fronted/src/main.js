@@ -8,8 +8,18 @@ Vue.config.productionTip = false
 
 //引入elementUI
 import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
 Vue.use(ElementUI);
 
+//引入全局css
+import './assets/common.css';
+
+//引入ECharts
+import echarts from 'echarts'
+Vue.prototype.$echarts = echarts
+
+//引入 md
+import VueMarkdown from 'vue-markdown'
 
 
 /* eslint-disable no-new */
