@@ -15,4 +15,16 @@ select{border-width:1px;_zoom:1;border-style:solid;padding-top:2px;font-size:12p
 .clearfix{zoom:1;}
 a:link,a:visited{text-decoration:none;color:#333;}
 a:hover,a:active{text-decoration:underline;color:#f60;}
-
+/*md样式美化*/
+.tip pre {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  color: #656565;
+  font-size: 14px;
+}
+.tip h1,h2,h3,h4,h5,p {
+  margin-bottom: 5px;
+}
