@@ -13,6 +13,7 @@ Vue.use(ElementUI);
 
 //引入全局css
 import './assets/common.css';
+import './assets/md.less'
 
 //引入ECharts
 import echarts from 'echarts'
