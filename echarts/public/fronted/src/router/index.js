@@ -22,12 +22,12 @@ export default new Router({
           component: Home
         },
         {
-          path: 'echart_1',
+          path: 'canvas/echart_1',
           name: 'EChart_1',
           component: EChart_1
         },
         {
-          path: 'echart_2',
+          path: 'canvas/echart_2',
           name: 'EChart_2',
           component: EChart_2
         }
