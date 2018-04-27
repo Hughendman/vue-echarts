@@ -27,10 +27,26 @@
             <el-menu-item index="">选项1</el-menu-item>
           </el-submenu>
         </el-submenu>
-        <el-menu-item index="">
-          <i class="el-icon-menu"></i>
-          <span slot="title">导航二</span>
-        </el-menu-item>
+
+        <el-submenu index="/d3">
+          <template slot="title">
+            <i class="el-icon-menu"></i>
+            <span slot="title">D3</span>
+          </template>
+          <el-menu-item-group>
+            <span slot="title">分组一</span>
+            <el-menu-item index="/d3/d3_1">d3_1</el-menu-item>
+            <el-menu-item index="/d3/d3_2">d3_2</el-menu-item>
+          </el-menu-item-group>
+          <el-menu-item-group title="分组2">
+            <el-menu-item index="">选项3</el-menu-item>
+          </el-menu-item-group>
+          <el-submenu index="">
+            <span slot="title">选项4</span>
+            <el-menu-item index="">选项1</el-menu-item>
+          </el-submenu>
+        </el-submenu>
+
         <el-menu-item index="">
           <i class="el-icon-setting"></i>
           <span slot="title">导航四</span>

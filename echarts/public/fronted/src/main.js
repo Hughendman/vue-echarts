@@ -19,6 +19,9 @@ import './assets/md.less'
 import echarts from 'echarts'
 Vue.prototype.$echarts = echarts
 
+//引入d3
+import * as d3 from 'd3'
+
 //引入 md
 import VueMarkdown from 'vue-markdown'
 
